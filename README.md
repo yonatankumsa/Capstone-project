@@ -36,7 +36,7 @@
 ## Getting Started
 
 # ERD
-<img src="https://i.imgur.com/eBEiGqO.jpg" width="400" height="200">
+
 
 # Wireframes
 <img src="https://i.imgur.com/5iNbRIP.png" width="800" height="600">
