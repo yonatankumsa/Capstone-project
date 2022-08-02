@@ -24,6 +24,7 @@ export class NewPage extends Component {
     return (
       <div>
         <h3>{this.props.cloneTitle}</h3>
+        <img src="https://source.unsplash.com/random" width={600} height={400}  alt="" />
         <p className="shadow p-3 mb-5 bg-white rounded justify-description-css">
           {this.props.cloneDescription}
         </p>
@@ -36,6 +37,7 @@ export class NewPage extends Component {
         >
           edit
         </button>
+      
       </div>
     );
   }

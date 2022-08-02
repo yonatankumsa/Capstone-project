@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { getBlogs, deleteBlogs } from "../actions/blogs";
 import EditBlogs from "./EditBlogs";
 import NewPage from "./NewPage";
+// import MyComponent from "../pages/newsapi"
 
 export class Blogs extends Component {
   // managing state for update functionality
@@ -128,7 +129,7 @@ export class Blogs extends Component {
                     >
                       <i className="edit-button far fa-edit fa-2x button-css" />
                     </span>
-
+<img src="https://source.unsplash.com/random" width={900} height={400}  alt="" />
                     {/* full blog */}
                     <button
                       className="btn btn-primary"
@@ -153,6 +154,8 @@ export class Blogs extends Component {
             )}
           </div>
         )}
+       
+        {/* <MyComponent/> */}
       </div>
     );
   }

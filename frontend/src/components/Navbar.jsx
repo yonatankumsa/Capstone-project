@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { logout } from "../actions/auth";
+import { Button } from "@material-ui/core";
 
 export class Navbar extends Component {
   state = {
@@ -49,7 +50,7 @@ export class Navbar extends Component {
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="/">
-            <i className="fas fa-home"> Home</i>
+            <i className="fas fa-home"> POSTME</i>
           </a>
           {this.state.hideNewBlogButton || !isAuthenticated ? (
             ""
@@ -64,6 +65,9 @@ export class Navbar extends Component {
             >
               New Blog
             </span>
+
+
+
           )}
           <button
             className="navbar-toggler"
