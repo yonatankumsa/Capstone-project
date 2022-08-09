@@ -39,7 +39,7 @@
 
 
 # Wireframes
-<img src="https://imgur.com/f9Ku9au" >
+<img src="https://i.imgur.com/20lWZ3q.png" width="800" height="600"
 <img src="https://i.imgur.com/20lWZ3q.png" width="800" height="600">
 <img src="https://i.imgur.com/jolZ0mg.png" width="800" height="600">
 <img src="https://i.imgur.com/DKA7FV8.png" width="800" height="600">
